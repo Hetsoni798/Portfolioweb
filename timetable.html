@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 0;
+            text-align: center;
+        }
+    
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+    
+        table {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+    
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    
+        tr:hover {
+            background-color: #eaeaea;
+        }
+    
+        td[rowspan] {
+            background-color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>College Timetable</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>11:00 - 11:50</th>
+                <th>11:50 - 12:30</th>
+                <th>12:30 - 1:30</th>
+                <th>1:30 - 2:20</th>
+                <th>2:20 - 3:10</th>
+                <th>3:10 - 3:20</th>
+                <th>3:20 - 4:10</th>
+                <th>4:10 - 5:00</th>
+            </tr>
+        </thead>
+        <br>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Introduction of Machine Learning</td>
+                <td>Introduction of Machine Learning</td>
+                <td rowspan="5"> lunch Break</td>
+                <td>Web Technology and Design</td>
+                <td>Web Technology and Design</td>
+                <td rowspan="5">Tea Break</td>
+                <td>Operating Systems</td>
+                <td>OOP Java</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>OOP Java</td>
+                <td>NSS/NCC</td>
+                <td>Library</td>
+                <td>WTD(RM)</td>
+                <td>OOPJ</td>
+                <td>OOPJ</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Opreating System</td>
+                <td>Chamber Duscussion</td>
+                <td>WTD</td>
+                <td>OS</td>
+                <td>Computer Science</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Operating Systems</td>
+                <td>Computer Science</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Lab</td>
+                <td>Elective</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Free</td>
+                <td>Introduction of Machine Learning</td>
+                <td>Physics</td>
+                <td>English</td>
+                <td>NCC/NSS</td>
+                <td>NCC/NSS</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
